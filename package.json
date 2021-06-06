@@ -1,7 +1,7 @@
 {
-  "name": "j-portfolio",
+  "name": "portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "porfolio",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
