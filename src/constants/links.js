@@ -1,24 +1,24 @@
 const data = [
   {
     id: 1,
-    text: "home",
+    text: "Home",
     url: "/",
   },
   {
     id: 2,
-    text: "about",
+    text: "Über Mich",
     url: "/about/",
   },
   {
     id: 3,
-    text: "projects",
+    text: "Projekte",
     url: "/projects/",
   },
   {
     id: 5,
-    text: "contact",
+    text: "Kontakt",
     url: "/contact/",
   },
-]
+]   
 
 export default data
