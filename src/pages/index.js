@@ -31,14 +31,14 @@ export const query = graphql`
   }
 `
 const IndexPage = ({ data }) => {
-  const { nodes: projects } = data.allStrapiProjects
+  const { nodes: projectsData } = data.allStrapiProjects
 
   return (
     <>
       <main>
         <Hero />
         <Services />
-        <Projects projects={projects} title={"vorgestellt"} showLink />
+        <Projects projectsData={projectsData} title={"vorgestellt"} showLink />
       </main>
     </>
   )

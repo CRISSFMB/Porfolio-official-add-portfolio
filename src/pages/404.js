@@ -5,7 +5,15 @@ import Seo from "../components/Seo"
 const Error = () => {
   return (
     <>
-      <h2>error page</h2>
+      <main className="error-page">
+        <div className="error-container">
+          <h1> Opps es gibt einen Fehler</h1>
+
+          <Link to="/" className="btn">
+            zurück
+          </Link>
+        </div>
+      </main>
     </>
   )
 }

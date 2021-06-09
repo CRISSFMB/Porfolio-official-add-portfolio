@@ -73,6 +73,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 
 h1,
@@ -101,6 +102,15 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
 }
+
+.paragraph {
+  margin: 0 10px;
+  font-size: 0.6rem;
+  display: block;
+  font-weight: bold;
+  color: black;
+}
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -720,13 +730,18 @@ Projects
   margin-top: 0.5rem;
 }
 .project-icon {
-  color: var(--clr-primary-5);
-  font-size: 1.25rem;
+  color: black;
+  font-size: 4rem;
   margin-right: 0.5rem;
   transition: var(--transition);
 }
 .project-icon:hover {
   color: var(--clr-primary-1);
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 576px) {
   .project-img {
@@ -742,6 +757,9 @@ Projects
   .project {
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
+  }
+  .project-links {
+    flex-direction: row;
   }
   .project-img {
     grid-column: 1 / span 8;
