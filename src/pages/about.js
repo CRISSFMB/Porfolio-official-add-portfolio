@@ -29,6 +29,7 @@ const About = ({ data: about }) => {
 
   return (
     <>
+      <Seo title={"Uber mich"} />
       <section className="about-page">
         <div className="section-center about-center">
           <GatsbyImage

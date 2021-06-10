@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import SEO from "../../components/Seo"
+import Seo from "../../components/Seo"
 
 export const query = graphql`
   query getSingleProjects($title: String) {
@@ -15,12 +15,16 @@ export const query = graphql`
 `
 
 function PageTemplate({ pageContext: { title }, data }) {
-  const { description } = data.strapiProjects
   return (
     <>
+      <Seo
+        title={data.strapiProjects.title.toUpperCase()}
+        description={data.strapiProjects.description}
+        image={data.strapiProjects.image.publicURL}
+      />
       <main className="project-template-page">
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p>{data.strapiProjects.description}</p>
       </main>
     </>
   )

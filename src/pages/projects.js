@@ -32,6 +32,7 @@ const ProjectsPage = ({ data }) => {
 
   return (
     <>
+      <Seo title={"Projects"} />
       <main>
         <Projects
           projectsData={projectsData}
