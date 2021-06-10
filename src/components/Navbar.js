@@ -3,14 +3,18 @@ import logo from "../assets/images/logo.svg"
 import { FaAlignRight } from "react-icons/fa"
 import dataLinks from "../constants/links"
 import { Link } from "gatsby"
-const Navbar = () => {
+const Navbar = ({ toggleHamburger }) => {
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} alt="web logo" />
 
-          <button type="button" className="toggle-btn">
+          <button
+            type="button"
+            className="toggle-btn"
+            onClick={toggleHamburger}
+          >
             <FaAlignRight />
           </button>
         </div>
