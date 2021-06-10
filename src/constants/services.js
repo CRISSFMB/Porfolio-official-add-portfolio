@@ -2,7 +2,7 @@ import React from "react"
 
 //icons React
 
-import { FaCode, FaTeamspeak } from "react-icons/fa"
+import { FaCode, FaCheckCircle } from "react-icons/fa"
 import { BsFillAspectRatioFill } from "react-icons/bs"
 
 const services = [
@@ -16,13 +16,13 @@ const services = [
     id: 2,
     icon: <BsFillAspectRatioFill className="service-icon" />,
     title: "Responsive Design",
-    text: `Natürlich ist Ihre Webseite an mobile Geräte anpassbar, um das Erscheinungsbild Ihrer Webseite auf allen Tablets und Desktop-Geräten zu gewährleisten und zu pflegen..`,
+    text: `Ein responsives Design macht Ihre Webseite für alle Benutzer zugänglich, unabhängig von ihrem Gerät`,
   },
   {
     id: 3,
-    icon: <FaTeamspeak className="service-icon" />,
-    title: "Webseiten-Support und Wartung",
-    text: `Wir bieten Wartung und Support nach Erhalt an, um die Stabilität, Sicherheit und Leistung Ihrer Webseite zu garantieren.`,
+    icon: <FaCheckCircle className="service-icon" />,
+    title: "Schnelle Webseiten",
+    text: `Erstellung von schnellen Webseiten durch Nutzung bester Technologien `,
   },
 ]
 

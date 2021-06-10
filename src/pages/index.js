@@ -38,7 +38,11 @@ const IndexPage = ({ data }) => {
       <main>
         <Hero />
         <Services />
-        <Projects projectsData={projectsData} title={"vorgestellt"} showLink />
+        <Projects
+          projectsData={projectsData}
+          title={"Wichtige Projekte"}
+          showLink
+        />
       </main>
     </>
   )

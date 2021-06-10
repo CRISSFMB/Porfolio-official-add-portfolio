@@ -36,6 +36,7 @@ const About = ({ data: about }) => {
             className="about-img-svg"
             alt={title}
           />
+
           <article className="about-text">
             <Title title={title} />
             <p>{description}</p>

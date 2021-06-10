@@ -5,33 +5,33 @@ const contact = () => {
     <>
       <section className="contact-page">
         <article className="contact-form">
-          <h3>get in Touch</h3>
+          <h3>Kontakt Formular</h3>
 
           <form>
             <div className="form-group">
               <input
                 type="text"
                 name="name"
-                placeholder="name"
+                placeholder="Name"
                 className="form-control"
               />
               <input
                 type="email"
                 name="email"
-                placeholder="email"
+                placeholder="Email"
                 className="form-control"
               />
 
               <textarea
                 name="message"
-                placeholder="message"
+                placeholder="Nachricht"
                 className="form-control"
                 rows="5"
               ></textarea>
             </div>
             <button type="submit" className="submit-btn btn">
               {" "}
-              submit here
+              Absenden
             </button>
           </form>
         </article>
