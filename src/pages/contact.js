@@ -6,35 +6,11 @@ const contact = () => {
       <Seo title={"Contact"} />
       <section className="contact-page">
         <article className="contact-form">
-          <h3>Kontakt Formular</h3>
+          <h3>Kontakt</h3>
 
-          <form>
-            <div className="form-group">
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                className="form-control"
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                className="form-control"
-              />
+          <div className="underline"></div>
 
-              <textarea
-                name="message"
-                placeholder="Nachricht"
-                className="form-control"
-                rows="5"
-              ></textarea>
-            </div>
-            <button type="submit" className="submit-btn btn">
-              {" "}
-              Absenden
-            </button>
-          </form>
+          <p>Email: cmosqbone1@gmail.com</p>
         </article>
       </section>
     </>

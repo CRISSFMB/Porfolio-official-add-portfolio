@@ -1,6 +1,7 @@
 import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { FaGithubSquare, FaCertificate } from "react-icons/fa"
+import { FaGithubSquare, FaTabletAlt } from "react-icons/fa"
+
 import { Link } from "gatsby"
 
 const Project = ({
@@ -36,14 +37,16 @@ const Project = ({
           ))}
         </div>
         <div className="project-links">
-          <a href={github}>
+          <a href={github} target="_blank" rel="noreferrer">
             <p className="paragraph">GitHub Code</p>
-            <FaGithubSquare className="project-icon" />
+            <FaGithubSquare className="project-icon-github" />
           </a>
 
           <a href={url}>
-            <p className="paragraph">View Page</p>
-            <FaCertificate className="project-icon" />
+            <p className="paragraph" target="_blank" rel="noreferrer">
+              zur Projektseite
+            </p>
+            <FaTabletAlt className="project-icon" />
           </a>
         </div>
       </div>

@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="social-links">
               {socialLinks.map(link => (
                 <a href={link.url} key={link.id} className="social-link">
-                  {link.icon}
+                  Linked{link.icon}
                 </a>
               ))}
             </div>
